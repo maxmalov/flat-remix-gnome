@@ -175,7 +175,7 @@ $_osd_color: if($variant=='light', black, $fg_color);
 
 #panelBox {
     padding: if($full-panel == 'true', 0, .35em .9em);
-    background: transparent;
+    background: #232532;
 }
 
 #panel {

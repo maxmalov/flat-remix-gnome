@@ -19,7 +19,7 @@
  */
 /* Global Values */
 stage {
-  font-size: 10pt;
+  font-size: 12pt;
   color: #eeeeec; }
 
 /* Common Stylings */
@@ -428,10 +428,10 @@ StScrollBar {
     icon-shadow: none;
     box-shadow: none; }
   .datemenu-today-button .day-label {
-    font-size: 11pt;
+    font-size: 13pt;
     font-weight: bold; }
   .datemenu-today-button .date-label {
-    font-size: 17pt;
+    font-size: 19pt;
     font-weight: 1000; }
 
 /* Calendar */
@@ -483,7 +483,7 @@ StScrollBar {
     .calendar .pager-button:active {
       background-color: black; }
   .calendar .calendar-day-base {
-    font-size: 7pt;
+    font-size: 9pt;
     text-align: center;
     width: 32px;
     height: 32px;
@@ -500,7 +500,7 @@ StScrollBar {
     .calendar .calendar-day-base.calendar-day-heading {
       color: white;
       margin-top: 1em;
-      font-size: 6pt; }
+      font-size: 8pt; }
   .calendar .calendar-day {
     border-width: 0; }
   .calendar .calendar-day-top {
@@ -531,7 +531,7 @@ StScrollBar {
   .calendar .calendar-other-month-day {
     color: rgba(238, 238, 236, 0.5); }
   .calendar .calendar-week-number {
-    font-size: 6pt;
+    font-size: 8pt;
     font-weight: bold;
     height: 1.8em;
     width: 2.3em;
@@ -581,18 +581,18 @@ StScrollBar {
     font-weight: bold; }
   .world-clocks-button .world-clocks-city {
     color: #eeeeec;
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight: normal; }
   .world-clocks-button .world-clocks-time {
     font-weight: bold;
     color: #eeeeec;
     font-feature-settings: "lnum";
-    font-size: 10pt;
+    font-size: 12pt;
     text-align: right; }
   .world-clocks-button .world-clocks-timezone {
     color: #bebeb6;
     font-feature-settings: "tnum";
-    font-size: 9pt; }
+    font-size: 11pt; }
 
 /* Weather */
 .weather-button {
@@ -635,14 +635,14 @@ StScrollBar {
     font-weight: bold; }
     .weather-button .weather-header.location {
       font-weight: normal;
-      font-size: 9pt; }
+      font-size: 11pt; }
   .weather-button .weather-grid {
     spacing-rows: 6px;
     spacing-columns: 12px; }
   .weather-button .weather-forecast-time {
     color: #a6a69b;
     font-feature-settings: "tnum";
-    font-size: 8pt;
+    font-size: 10pt;
     font-weight: normal;
     padding-top: 0.2em;
     padding-bottom: 0.4em; }
@@ -720,7 +720,7 @@ StScrollBar {
     padding: 0 8px; }
     .message .message-secondary-bin > .event-time {
       color: rgba(238, 238, 236, 0.5);
-      font-size: 8pt;
+      font-size: 10pt;
       text-align: right;
       /* HACK: the label should be baseline-aligned with a 1em label, fake this with some bottom padding */
       padding-bottom: 0.13em; }
@@ -806,7 +806,7 @@ StScrollBar {
     spacing: 0; }
 
 .summary-source-counter {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: bold;
   height: 1.6em;
   width: 1.6em;
@@ -845,7 +845,7 @@ StScrollBar {
 
 .chat-meta-message {
   padding-left: 4px;
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: bold;
   color: white; }
   .chat-meta-message:rtl {
@@ -858,7 +858,7 @@ StScrollBar {
 
 /* Modal Dialogs */
 .headline {
-  font-size: 11pt; }
+  font-size: 13pt; }
 
 .modal-dialog {
   border-radius: 10px; }
@@ -903,7 +903,7 @@ StScrollBar {
         font-weight: bold; }
       .dialog-list .dialog-list-box .dialog-list-item .dialog-list-item-description {
         color: #e2e2df;
-        font-size: 9pt; }
+        font-size: 11pt; }
 
 /* Run Dialog */
 .run-dialog .modal-dialog-content-box {
@@ -914,7 +914,7 @@ StScrollBar {
   width: 20em; }
 
 .run-dialog .run-dialog-description {
-  font-size: 9pt;
+  font-size: 11pt;
   text-align: center;
   color: #bebeb6; }
 
@@ -944,7 +944,7 @@ StScrollBar {
 .prompt-dialog-info-label,
 .prompt-dialog-null-label {
   text-align: center;
-  font-size: 9pt; }
+  font-size: 11pt; }
 
 .prompt-dialog-error-label {
   color: #fd7d00; }
@@ -1018,7 +1018,7 @@ StScrollBar {
   background-color: black; }
 
 .nm-dialog-item {
-  font-size: 10pt;
+  font-size: 12pt;
   border-bottom: 1px solid black;
   padding: 12px;
   spacing: 0px; }
@@ -1244,7 +1244,7 @@ StScrollBar {
   border-radius: 6px;
   padding: 6px 12px;
   font-weight: bold;
-  font-size: 11pt; }
+  font-size: 13pt; }
 
 .window-close {
   background-color: #2777ff;
@@ -1478,7 +1478,7 @@ StScrollBar {
 
 /* Dash */
 #dash {
-  font-size: 8pt;
+  font-size: 10pt;
   padding: 5px 0;
   border-radius: 0 15px 15px 0;
   border-left-width: 0; }
@@ -1606,7 +1606,7 @@ StScrollBar {
 .caps-lock-warning-label {
   text-align: center;
   padding-bottom: 8px;
-  font-size: 9pt;
+  font-size: 11pt;
   color: #fd7d00; }
 
 /* Tiled window previews */
@@ -1644,7 +1644,7 @@ StScrollBar {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
-  font-size: 15pt;
+  font-size: 17pt;
   min-height: 1.2em;
   min-width: 1.2em;
   border-width: 1px;
@@ -1767,7 +1767,7 @@ StScrollBar {
   background-color: #2777ff; }
 
 .word-suggestions {
-  font-size: 13pt;
+  font-size: 15pt;
   spacing: 12px;
   min-height: 20pt; }
 
@@ -1972,7 +1972,7 @@ StScrollBar {
     color: white; }
 
 .login-dialog-not-listed-label {
-  font-size: 9pt;
+  font-size: 11pt;
   font-weight: bold;
   color: #b3b3b3;
   padding-top: 1em; }
@@ -2008,7 +2008,7 @@ StScrollBar {
   color: white; }
 
 .user-widget.horizontal .user-widget-label {
-  font-size: 12pt;
+  font-size: 14pt;
   font-weight: bold;
   text-align: left;
   padding-left: 15px; }
@@ -2018,7 +2018,7 @@ StScrollBar {
     padding-right: 14px; }
 
 .user-widget.vertical .user-widget-label {
-  font-size: 15pt;
+  font-size: 17pt;
   text-align: center;
   font-weight: normal;
   padding-top: 16px; }
@@ -2034,7 +2034,7 @@ StScrollBar {
 
 .login-dialog-prompt-label {
   color: #cccccc;
-  font-size: 11pt;
+  font-size: 13pt;
   padding-top: 1em; }
 
 /* Screen Shield */
@@ -2236,7 +2236,7 @@ StScrollBar {
 /* TOP BAR */
 #panelBox {
   padding: 0;
-  background: transparent; }
+  background: #232532; }
 
 #panel {
   font-size: .9em;
